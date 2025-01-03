@@ -67,26 +67,38 @@ To see how you can add code snippets, see below:
 ```
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.qr-section {
+  max-width: 250px;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid var(--white);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 15px;
+  background-color: var(--white);
 }
-```
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
+.qr-section img {
+  width: 250px;
+  border-radius: 15px;
+}
+
+.qr-section .qr-content {
+  padding: 6px;
+}
+
+.qr-section .qr-content h1 {
+  font-size: 21px;
+}
+
+.qr-section .qr-content p {
+  font-size: 15px;
+  color: var(--slate500);
+}
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 **Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
@@ -97,8 +109,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@rizkibagus](https://www.frontendmentor.io/profile/rizkibagus)
 - Twitter - [@bagusdev\_](https://www.twitter.com/bagusdev_)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
